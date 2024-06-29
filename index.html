@@ -1,5 +1,6 @@
 <html>
   <head>
+    <title>contact form</title>
     <body>
       <p>Name and Password</p>
       <form action="#">
@@ -9,15 +10,13 @@
         <textarea id="try" rows="4" cols="30"> your email</textarea>
         <textarea id="try" rows="4" cols="30"> your phone number</textarea>
         <textarea id="try" rows="4" cols="30"> your credit card number</textarea>
+        <textarea id="try" rows="4" cols="30"> your address</textarea>
       <p>English or Spanish?</p>
       <form action="#">
-        <input type="radio" id="eng" name="lang" value="english">
-        <label for="english"> English </label>
-        <br>
-        <input type="radio" id="spanish" name="lang" value="spanish">
-        <label for="spanish"> Spanish </label>
-        <br>
-        <input type="submit" value="submit">
+        <label for="choices"> English or Spanish? </label>
+        <select name="choices" id="choice">
+        <option value="1"> English</option>
+        <option value="2"> Spanish</option>
     </body>
   </head>
 </html>
